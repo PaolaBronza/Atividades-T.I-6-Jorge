@@ -15,11 +15,11 @@ int main(void){
 	SetConsoleOutputCP(cp);
 	system("color 02");
 	
-//VARIÁVEIS
+//VARIÃVEIS
 	int cod,nota[3],media;
 	
-//INÍCIO CÓDIGO
-	printf("Insira o código do aluno.\nAluno1\t001\nAluno2\t002\nAluno3\t003\nAluno4\t004\nAluno5\t005\nInsira aqui: ");
+//INÃCIO CÃ“DIGO
+	printf("Insira o cÃ³digo do aluno.\nAluno1\t001\nAluno2\t002\nAluno3\t003\nAluno4\t004\nAluno5\t005\nInsira aqui: ");
 	scanf("%d",&cod);
 	srand(time(NULL));
 	
@@ -27,7 +27,7 @@ int main(void){
 		nota[i]=rand()% 70+30;
 	}
 	media=(nota[0]+nota[1]+nota[2])/3;
-	printf("\nAluno: %d\n\nNota1: %d\nNota2: %d\nNota3: %d\n\nMédia: %d",cod,nota[0],nota[1],nota[2],media);
+	printf("\nAluno: %d\n\nNota1: %d\nNota2: %d\nNota3: %d\n\nMÃ©dia: %d",cod,nota[0],nota[1],nota[2],media);
 	
 	if(media>=70){
 		printf("\n\nAprovado");
