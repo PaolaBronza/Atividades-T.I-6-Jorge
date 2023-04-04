@@ -15,16 +15,16 @@ int main(void){
 	SetConsoleOutputCP(cp);
 	system("color 02");
 	
-//variáveis
+//variÃ¡veis
 	int qtd,num[1000];
 	
-//início código
-	printf("Insira a quantidade de números: ");
+//inÃ­cio cÃ³digo
+	printf("Insira a quantidade de nÃºmeros: ");
 	scanf("%d",&qtd);
 	
 	
 	for(int i=1;i<=qtd;i++){
-	printf("Insira um número: ");
+	printf("Insira um nÃºmero: ");
 	scanf("%d",&num[i]);
 	}
 	for(int i=qtd;i>=1;i--){
