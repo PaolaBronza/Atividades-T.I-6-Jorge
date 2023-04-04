@@ -15,12 +15,12 @@ int main(void){
 	SetConsoleOutputCP(cp);
 	system("color 02");
 	
-//variáveis
+//variÃ¡veis
 	int num[20];
 	
-//início código
+//inÃ­cio cÃ³digo
 	for(int i=0;i<=19;i++){
-	printf("Insira um número: ");
+	printf("Insira um nÃºmero: ");
 	scanf("%d",&num[i]);
 	}
 	for(int i=19;i>=0;i--){
