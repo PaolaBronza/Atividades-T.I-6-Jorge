@@ -15,10 +15,10 @@ int main(void){
 	SetConsoleOutputCP(cp);
 	system("color 02");
 	
-//VARI¡VEIS
+//VARI√ÅVEIS
 	char nome[40][10],email[40][10],tel[20][10];
 	
-//INÕCIO C”DIGO
+//IN√çCIO C√ìDIGO
 	
 	for(int i=0;i<=9;i++){
 		printf("\nInsira seu nome: ");
