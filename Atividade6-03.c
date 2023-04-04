@@ -15,10 +15,10 @@ int main(void){
 	SetConsoleOutputCP(cp);
 	system("color 02");
 	
-//vari·veis
+//vari√°veis
 	char nome[30][40];
 
-//INÕCIO PROGRAMA
+//IN√çCIO PROGRAMA
 	for(int i=0;i<=29;i++){
 		printf("Insira um nome: ");
 		gets(nome[i]);
