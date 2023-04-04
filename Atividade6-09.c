@@ -15,28 +15,28 @@ int main(void){
 	SetConsoleOutputCP(cp);
 	system("color 02");
 	
-//VARIÁVEIS
+//VARIÃVEIS
 	int temp[7],media;
 	
-//INÍCIO CÓDIGO
-		printf("Insira a temperatura do dia (em °C):");
+//INÃCIO CÃ“DIGO
+		printf("Insira a temperatura do dia (em Â°C):");
 		printf("Segunda:\t");
-		scanf("%d °C",&temp[0]);
-		printf("Terça:\t\t");
-		scanf("%d °C",&temp[1]);
+		scanf("%d Â°C",&temp[0]);
+		printf("TerÃ§a:\t\t");
+		scanf("%d Â°C",&temp[1]);
 		printf("Quarta:\t\t");
-		scanf("%d °C",&temp[2]);
+		scanf("%d Â°C",&temp[2]);
 		printf("Quinta:\t\t");
-		scanf("%d °C",&temp[3]);
+		scanf("%d Â°C",&temp[3]);
 		printf("Sexta:\t\t");
-		scanf("%d °C",&temp[4]);
-		printf("Sábado:\t\t");
-		scanf("%d °C",&temp[5]);
+		scanf("%d Â°C",&temp[4]);
+		printf("SÃ¡bado:\t\t");
+		scanf("%d Â°C",&temp[5]);
 		printf("Domingo:\t");
-		scanf("%d °C",&temp[6]);
+		scanf("%d Â°C",&temp[6]);
 		
 		media=(temp[0]+temp[2]+temp[3]+temp[4]+temp[5]+temp[6])/7;
-		printf("\nMédia da semana: %d",media);
+		printf("\nMÃ©dia da semana: %d",media);
 		return 0;
 	return 0;
 }
