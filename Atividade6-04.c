@@ -15,12 +15,12 @@ int main(void){
 	SetConsoleOutputCP(cp);
 	system("color 02");
 	
-//vari·veis
+//vari√°veis
 	char dados[10][2];
 
-//INÕCIO C”DIGO
+//IN√çCIO C√ìDIGO
 	for(int i=0;i<=9;i++){
-		printf("Insira um n˙mero ou letra: ");
+		printf("Insira um n√∫mero ou letra: ");
 		scanf("%s",&dados[i]);
 	}
 	for(int i=0;i<=9;i++){
