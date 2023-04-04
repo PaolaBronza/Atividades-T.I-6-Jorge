@@ -14,12 +14,12 @@ int main(void){
     SetConsoleCP(cp);       
 	SetConsoleOutputCP(cp);
 	
-//VARI¡VEIS
+//VARI√ÅVEIS
 	bool achou;
 	int valor[10];
 	int pesquisa, i;
 	
-//INÕCIO C”DIGO
+//IN√çCIO C√ìDIGO
 	for(int i=0;i<=9;i++){
 		printf("digite um valor: ");
 		scanf("%d",&valor[i]);
@@ -39,7 +39,7 @@ int main(void){
 	}
 	else{
 		system("color 04");
-		printf("\nN„o possui");
+		printf("\nNƒÉo possui");
 	}
 	return 0;
 }
