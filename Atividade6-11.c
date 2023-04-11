@@ -15,11 +15,11 @@ int main(void){
 	SetConsoleOutputCP(cp);
 	system("color 02");
 	
-//VARI¡VEIS
+//VARI√ÅVEIS
 	int qtd;
 	int num[qtd], media, maior=0, menor;
 	
-//INÕCIO C”DIGO		
+//IN√çCIO C√ìDIGO		
 	printf("Insira a quantidade de alunos: ");
 	scanf("%d", &qtd);
 	printf("\n");		
@@ -32,7 +32,7 @@ int main(void){
 			
 		media=media/qtd;
 			
-		printf("\nA mÈdia de notas È: %d", media);
+		printf("\nA m√©dia de notas √©: %d", media);
 		//Maior nota
 			
 		for(int i=0;i<qtd;i++){
@@ -40,7 +40,7 @@ int main(void){
 			maior=num[i];
 			}	
 		}
-		printf("\nA maior nota È: %d", maior);
+		printf("\nA maior nota √©: %d", maior);
 		//Menor nota
 		menor = maior;
 			
@@ -49,7 +49,7 @@ int main(void){
 				menor=num[i];
 			}	
 		}
-		printf("\nA menor nota È:%d", menor);
+		printf("\nA menor nota √©:%d", menor);
 		
 		return 0;
 		
